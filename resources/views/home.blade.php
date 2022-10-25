@@ -1,4 +1,4 @@
 @extends('layouts.main')
 @section('container')
-    <h1>Hello coding</h1>
+    <h1>Hello Ini Test Github</h1>
 @endsection
