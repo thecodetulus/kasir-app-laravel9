@@ -2,7 +2,7 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url('/') }}">
-                <div class="sidebar-brand-text mx-3">{{ __('Homepage') }}</div>
+                <div class="sidebar-brand-text mx-3">{{ __('KASIRcuy') }}</div>
             </a>
 
             <!-- Divider -->
@@ -34,7 +34,7 @@
             <li class="nav-item {{ request()->is('admin/categories') || request()->is('admin/categories') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('admin.categories.index') }}">
                     <i class="fas fa-fw fa-cogs"></i>
-                    <span>{{ __('Category') }}</span></a>
+                    <span>{{ __('iniCategory') }}</span></a>
             </li>
 
             <li class="nav-item {{ request()->is('admin/products') || request()->is('admin/products') ? 'active' : '' }}">
